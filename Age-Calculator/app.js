@@ -1,6 +1,6 @@
 // TASK  = Display : Age (Year, Month, Day, Hours , Seconds)
 
-var age = prompt("Enter your date of birth : " );
+var age = prompt("Enter your date of birth (Format: DD-MM-YYYY): " );
 var date = new Date(age);
 var now = new Date();
 var diff = now.getTime() - date.getTime() 
